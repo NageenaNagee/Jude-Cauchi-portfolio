@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -376,12 +377,15 @@ img {
   margin-bottom: var(--mb-4);
 }
 .contact__button {
+  .contact__button {
   display: block;
+  margin: 0 auto; /* centers the button */
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+}
+
 }
 
 /* ===== FOOTER =====*/
@@ -457,6 +461,25 @@ img {
   .contact__container {
     justify-items: center;
   }
+}
+
+.contact__input {
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
 }
 @media screen and (min-width: 768px) {
   body {
